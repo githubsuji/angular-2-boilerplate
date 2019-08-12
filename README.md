@@ -50,3 +50,40 @@ https://github.com/angular/flex-layout
 
 ## Angular App Step By Step : Reference for beginners
 https://go.tiny.cloud/blog/angular-5-tutorial-step-step-guide-first-angular-5-app/
+
+
+## BROWSER SUPPORT
+Learn more in https://angular.io/guide/browser-support
+## browserlist related queries
+https://github.com/browserslist/browserslist#queries
+
+## You can see what browsers were selected by your queries by running:
+npx browserslist
+## You can  see browser list queries as ONLINE
+https://browserl.ist/?q=%3E+0.5%25%2C+not+dead
+
+## BROWSER POLYFILLS
+polyfills.ts
+
+## DIFFERENTIAL LOADING including IE Browsers 
+https://medium.com/better-programming/how-to-fix-your-angular-app-when-its-not-working-in-ie11-eb24cb6d9920
+
+
+https://blog.ninja-squad.com/2019/05/29/angular-cli-8.0/ 
+
+https://www.reddit.com/r/Angular2/comments/buup6a/ 
+tsconfig-es5.app.json
+
+angular.json
+
+https://philipwalton.com/articles/deploying-es2015-code-in-production-today/ 
+https://blog.ninja-squad.com/2019/05/29/angular-cli-8.0/
+
+https://books.ninja-squad.com/angular?book=NgProPack#buy
+Differential loading is currently only supported when using es2015 as a compilation target.
+## Angular 8 Application without using Angular-cli
+
+https://github.com/cornflourblue/angular-8-registration-login-example
+
+## Angular App from scratch
+https://appdividend.com/2019/06/04/angular-8-tutorial-with-example-learn-angular-8-crud-from-scratch/

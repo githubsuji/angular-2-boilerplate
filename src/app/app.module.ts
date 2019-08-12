@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from 'src/app/app-routing/app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CoreModule } from 'src/app/core/core.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { UserIdleModule } from 'angular-user-idle';
 import { HomeComponent } from './views/home/home.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 /** For Doc - https://www.npmjs.com/package/angular-user-idle
  * https://github.com/rednez/angular-user-idle/blob/master/projects/angular-user-idle/src/lib/angular-user-idle.service.ts
  */
