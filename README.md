@@ -87,3 +87,6 @@ https://github.com/cornflourblue/angular-8-registration-login-example
 
 ## Angular App from scratch
 https://appdividend.com/2019/06/04/angular-8-tutorial-with-example-learn-angular-8-crud-from-scratch/
+
+## Add material Icons and fonts
+https://codinglatte.com/posts/angular/material-icons-angular-5/
