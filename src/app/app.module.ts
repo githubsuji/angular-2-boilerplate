@@ -8,6 +8,8 @@ import { HomeComponent } from './views/home/home.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppLoginComponent } from './app-login/app-login.component';
 import { AppPageNotFoundComponent } from './app-page-not-found/app-page-not-found.component';
+import { AppAccessDeniedComponent } from './app-access-denied/app-access-denied.component';
+import { AppPageLoaderComponent } from './app-page-loader/app-page-loader.component';
 /** For Doc - https://www.npmjs.com/package/angular-user-idle
  * https://github.com/rednez/angular-user-idle/blob/master/projects/angular-user-idle/src/lib/angular-user-idle.service.ts
  */
@@ -18,7 +20,9 @@ import { AppPageNotFoundComponent } from './app-page-not-found/app-page-not-foun
     AppComponent,
     HomeComponent,
     AppLoginComponent,
-    AppPageNotFoundComponent
+    AppPageNotFoundComponent,
+    AppAccessDeniedComponent,
+    AppPageLoaderComponent
   ],
   imports: [
     BrowserModule,

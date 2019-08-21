@@ -90,3 +90,10 @@ https://appdividend.com/2019/06/04/angular-8-tutorial-with-example-learn-angular
 
 ## Add material Icons and fonts
 https://codinglatte.com/posts/angular/material-icons-angular-5/
+
+## Authentication and Routing Reference
+https://jasonwatmore.com/post/2019/06/26/angular-8-basic-http-authentication-tutorial-example
+
+## Angular 8 Features
+https://blog.angularindepth.com/embrace-yourself-angular-8-is-coming-1bf187c8f0bf
+https://jasonwatmore.com/post/2019/06/26/angular-8-basic-http-authentication-tutorial-example
