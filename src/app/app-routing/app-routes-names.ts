@@ -1,4 +1,4 @@
-export const appRoutesNames = {
+export const APP_ROUTE_NAMES = {
     NOT_FOUND_PATH: '404',
     NOT_MATCHED_PATH: '**',
     EMPTY_PATH: '',

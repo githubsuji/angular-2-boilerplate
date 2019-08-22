@@ -93,7 +93,20 @@ https://codinglatte.com/posts/angular/material-icons-angular-5/
 
 ## Authentication and Routing Reference
 https://jasonwatmore.com/post/2019/06/26/angular-8-basic-http-authentication-tutorial-example
+https://www.smashingmagazine.com/2018/11/a-complete-guide-to-routing-in-angular/
 
 ## Angular 8 Features
 https://blog.angularindepth.com/embrace-yourself-angular-8-is-coming-1bf187c8f0bf
 https://jasonwatmore.com/post/2019/06/26/angular-8-basic-http-authentication-tutorial-example
+https://www.techiediaries.com/angular-router/
+
+https://www.9lessons.info/2017/06/ionic-3-and-angular-4-adding-custom.html
+
+## How to Implement Sign-in with Google in Angular and a REST API
+https://codinglatte.com/posts/angular/sign-in-with-google-angular/
+https://developers.google.com/identity/sign-in/web/backend-auth
+
+## Implementing Login with Facebook with Angular and REST API
+https://codinglatte.com/posts/angular/facebook-login-angular-rest-api/
+
+https://medium.com/@sarat.e99/facebook-login-oauth2-from-angular-6-f55a96c2be00

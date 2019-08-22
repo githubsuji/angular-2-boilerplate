@@ -8,7 +8,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthorizationGuard } from './guards/authorization-guard/authorization.guard';
 const CORE_SERVICES = [NavigationInterceptorService, HttpStatusService,
   HttpListenerService, AppIdleHandleService];
-const CORE_GUARDS = [ AuthorizationGuard];
+const CORE_GUARDS = [AuthorizationGuard];
 @NgModule({
   declarations: [],
   imports: [
