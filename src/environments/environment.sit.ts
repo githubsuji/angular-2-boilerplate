@@ -8,12 +8,13 @@ import { AppConfig } from 'src/app/shared/models/interfaces/app-config/app-confi
 
 export const appConfig: AppConfig = {
   environment: 'SIT',
-  description: 'System Integration Testing',
+  description: 'Application is under construction - Debugging is enabled here!',
   production: false,
-  apiBaseUrl: 'https://sit.service.com:8780/appcontext/', // SIT
+  apiBaseUrls: {'api-1': 'https://sit.service.com:8780/appcontext/',
+                'api-2': 'https://sit.service.com:8785/appcontext/'
+  },
   // tslint:disable-next-line:object-literal-shorthand
   apiEndpoints: apiEndpoints
-
 
 
 

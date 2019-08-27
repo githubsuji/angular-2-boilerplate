@@ -8,13 +8,15 @@ import { SharedEventEmitterBusService } from 'src/app/shared/data-bus/shared-eve
 import { SampleMessageService } from 'src/app/shared/data-bus/shared-message-services/sample-message.service';
 import { SharedMessageService } from 'src/app/shared/data-bus/shared-message-services/shared-message.service';
 import { NgBootstrapModule } from 'src/app/shared/modules/ng-bootstrap/ng-bootstrap.module';
+import { MiscellaneousModule } from 'src/app/shared/modules/miscellaneous/miscellaneous.module';
+import { SampleApiService } from './services/api/sample-service/sample-api.service';
 
 @NgModule({
   imports: [CommonModule, FormsModule, HttpClientModule, RouterModule, NgMaterialModule,
-    NgBootstrapModule],
+    NgBootstrapModule, MiscellaneousModule],
   declarations: [ /* PIPES, COMPONENTS, DIRECTIVES */],
   exports: [CommonModule, FormsModule, HttpClientModule, RouterModule,
-    NgMaterialModule, NgBootstrapModule /* PIPES, COMPONENTS, DIRECTIVES, MODULES */]
+    NgMaterialModule, NgBootstrapModule, MiscellaneousModule /* PIPES, COMPONENTS, DIRECTIVES, MODULES */]
   /** NO PROVIDERS HERE */
 })
 export class SharedModule {
@@ -26,7 +28,8 @@ export class SharedModule {
         /** PROVIDERS ARE HERE */
         SharedEventEmitterBusService,
         SampleMessageService,
-        SharedMessageService
+        SharedMessageService,
+        SampleApiService
         ]
     };
   }

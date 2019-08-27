@@ -5,7 +5,9 @@ export const appConfig: AppConfig = {
   environment: 'PRODUCTION',
   description: 'Application is available for Customers - LIVE',
   production: true,
-  apiBaseUrl: 'https://prod.service.com:8780/appcontext/', // PROD
+  apiBaseUrls: {'api-1': 'https://prod.service.com:8780/appcontext/',
+  'api-2': 'https://prod.service.com:8785/appcontext/'
+},
   // tslint:disable-next-line:object-literal-shorthand
   apiEndpoints: apiEndpoints
 };

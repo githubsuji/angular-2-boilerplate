@@ -5,6 +5,7 @@ import { AppPageNotFoundComponent } from '../app-page-not-found/app-page-not-fou
 import { AppAccessDeniedComponent } from '../app-access-denied/app-access-denied.component';
 import { AuthorizationGuard as PermissionGuard } from '../core/guards/authorization-guard/authorization.guard';
 import { APP_OUTLETS } from '../app-outlets/app-outlet-names';
+import { AppEnvCheckComponent } from '../app-env-check/app-env-check.component';
 
 export const APP_ROUTES = [
   {
@@ -12,9 +13,8 @@ export const APP_ROUTES = [
     canActivate: [PermissionGuard],
     canActivateChild: [PermissionGuard],
     children: [
-      { path: APP_ROUTE_NAMES.EMPTY_PATH,
-         redirectTo: APP_ROUTE_NAMES.LOGIN_PATH,
-         pathMatch: 'full' },
+      { path: APP_ROUTE_NAMES.EMPTY_PATH, redirectTo: APP_ROUTE_NAMES.LOGIN_PATH, pathMatch: 'full' },
+      { path: APP_ROUTE_NAMES.ENV_CHECK_PATH, component: AppEnvCheckComponent},
       { path: APP_ROUTE_NAMES.HOME_PATH, component: HomeComponent },
       { path: APP_ROUTE_NAMES.LOGIN_PATH, component: AppLoginComponent },
       { path: APP_ROUTE_NAMES.DENIED_PATH, component: AppAccessDeniedComponent },

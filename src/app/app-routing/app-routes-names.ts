@@ -4,5 +4,6 @@ export const APP_ROUTE_NAMES = {
     EMPTY_PATH: '',
     DENIED_PATH: 'denied',
     HOME_PATH: 'home',
-    LOGIN_PATH: 'login'
+    LOGIN_PATH: 'login',
+    ENV_CHECK_PATH: 'env-check'
   };

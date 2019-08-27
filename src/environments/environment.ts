@@ -10,10 +10,11 @@ export const appConfig: AppConfig = {
   environment: 'DEVELOPMENT',
   description: 'Application is under construction - Debugging is enabled here!',
   production: false,
-  apiBaseUrl: 'https://dev.service.com:8780/appcontext/', // DEV
+  apiBaseUrls: {'api-1': 'https://dev.service.com:8780/appcontext/',
+                'api-2': 'https://dev.service.com:8785/appcontext/'
+  },
   // tslint:disable-next-line:object-literal-shorthand
   apiEndpoints: apiEndpoints
-
 
 
 
