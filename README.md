@@ -110,3 +110,16 @@ https://developers.google.com/identity/sign-in/web/backend-auth
 https://codinglatte.com/posts/angular/facebook-login-angular-rest-api/
 
 https://medium.com/@sarat.e99/facebook-login-oauth2-from-angular-6-f55a96c2be00
+
+## Notifications and Web Push
+https://blog.angular-university.io/angular-push-notifications/
+https://dzone.com/articles/browser-push-notification-in-angular-5
+
+https://jasonwatmore.com/post/2019/07/05/angular-8-alert-toaster-notifications
+https://github.com/cornflourblue/angular-8-alert-notifications/blob/master/src/app/home/home.component.ts
+
+## PWA
+https://www.smashingmagazine.com/2018/09/pwa-angular-6/
+
+## Angular Routing
+https://www.djamware.com/post/5d58b409bcc156d4a8a3df8f/angular-8-tutorial-routing-navigation-example

@@ -6,13 +6,15 @@ import { HttpListenerService } from './interceptors/http-listener/http-listener.
 import { AppIdleHandleService } from './services/app-idle-handle/app-idle-handle.service';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthorizationGuard } from './guards/authorization-guard/authorization.guard';
+import { AlertToasterNotificationsModule } from 'src/app/core/alert-toaster-notifications';
 const CORE_SERVICES = [NavigationInterceptorService, HttpStatusService,
   HttpListenerService, AppIdleHandleService];
 const CORE_GUARDS = [AuthorizationGuard];
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    AlertToasterNotificationsModule
   ],
   providers: [/** SERVICES ARE HERE */
     ...CORE_SERVICES,
@@ -22,7 +24,8 @@ const CORE_GUARDS = [AuthorizationGuard];
           multi: true
         },
         ...CORE_GUARDS,
-  ]
+  ],
+  exports: [ AlertToasterNotificationsModule ]
 })
 export class CoreModule {
    constructor(@Optional() @SkipSelf() core: CoreModule) {
